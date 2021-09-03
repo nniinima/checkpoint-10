@@ -13,4 +13,4 @@ def helloworld(request):
         Functions, see the `Writing HTTP functions` page.
         <https://cloud.google.com/functions/docs/writing/http#http_frameworks>
     """
-    return 'Hello World! 2.0'
+    return 'Hello World! 3.0'
