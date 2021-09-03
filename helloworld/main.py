@@ -1,5 +1,5 @@
 
-def hello_get(request):
+def helloworld(request):
     """HTTP Cloud Function.
     Args:
         request (flask.Request): The request object.
@@ -13,4 +13,4 @@ def hello_get(request):
         Functions, see the `Writing HTTP functions` page.
         <https://cloud.google.com/functions/docs/writing/http#http_frameworks>
     """
-    return 'Hello World! 1.0'
+    return 'Hello World! 2.0'
