@@ -1,0 +1,11 @@
+steps:
+- name: 'gcr.io/google.com/cloudsdktool/cloud-sdk'
+  args:
+  - gcloud
+  - functions
+  - deploy
+  - cartadd
+  - --region=us-central1
+  - --source=./functions/cartadd/
+  - --trigger-http
+  - --runtime=python39
